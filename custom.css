@@ -1,0 +1,83 @@
+/******************************************  
+ CUSTOM STYLESHEET
+*******************************************/
+
+/*
+* You can place your custom CSS statements in this file, after this message.
+* It is better to write everything custom here
+* because this file won't be replaced during updates.
+* 
+* Simply copy an existing style from style.css to this file, 
+* and modify it to your liking.
+*/
+      ul.container {
+      list-style-type: none;
+      display: inline-flex;
+      writing-mode: horizontal-tb;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      width: 100%;
+      }
+  
+
+      .container li{
+        writing-mode: horizontal-tb;
+        list-style-type: none;
+        height: 20px;
+        padding-right: 8px;
+        padding-bottom: 5px;
+        font-size: 16px;
+        }  
+     
+ 
+      .photo {
+      display: inline-flex;
+     }
+
+     .btn-group button {
+     	width: 6%;
+     	float:left;
+      cursor: pointer;
+      }
+
+     .btn-group button:not(:last-child) {
+       border-right: none; /* Prevent double borders */
+     }
+
+     /* Add a background color on hover */
+     .btn-group button:hover {
+      background-color: #3e8e41;
+    }
+
+/* Add INDEX TEMPLATE STYLE */
+.full-width #fullscreencontent {
+	display: block;
+	float: none;
+	margin-right: 0;
+	width: 1000px;
+}
+
+
+.index-content-inside { /* layer 4 */
+	background-color: #fff;
+	border: solid 1px #e1e1e1;
+	padding: 29px;
+	width: 100%;
+}
+
+div.wrapper {
+	margin: 0 auto;
+	padding: 0 30px;
+	text-align: left;
+	width: 1000px;
+}
+
+/* Add MONOGRAPH TEMPLATE STYLE */
+div.act-list{
+	height: 200px;
+}
+ 
+    li.activity {
+        writing-mode: horizontal-tb;
+        padding: 8px;
+      }  
